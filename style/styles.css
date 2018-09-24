@@ -1,131 +1,133 @@
-/* RESET */
-body {
-	background-color: #f5f5f5;
-	font-size: 1em;
-	margin: 0px;
-	font-family: 'PT Sans', sans-serif;
-	width: 100%;
-}
-img {
-	width: 100%;
-}
-a {
-	text-decoration: none;
-}
-ul {
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-	width: 100%;
-}
-li {
-	padding: 1%;
-}
-/* HEADER */
-header {
-	width: 98%;
-	margin: 0px;
-	padding: 1%;
-	background-color: #323232;
-}
-header a{
-	height: 100px;
-	width: 100px;
-	background-color: #010101;
-	border-radius: 60%;
-}
-header img{
-	height: 100px;
-	width: 100px;
-}
-header span{
-	float: right;
-}
-/* MENU */
-#menu{
-	display: none; 
-}
-#menu ul{
-	text-align: center;
-	font-size: 1.5em;
-}
-#menu ul li:hover{
-	border-bottom: 1px solid black;
-}
-/* BANNER */
-#banner {
-	background-image: url(../imgs/banner.jpg);
-	background-repeat: no-repeat;
-	background-position: fixed;
-	background-size: cover;
-	text-align: center;
-	margin: 0px;
-	padding: 1%;
-	color: white;
-	text-shadow: 1px 1px black;
-	width: 98%;
-}
-#banner h2{
-	font-size: 3em;
-	font-weight: 700;
-}
-#banner h3{
-	font-size: 2em;
-}
-#banner h4{
-	font-size: 2em;
-	font-weight: 700;	
-}
-#banner button{
-	width: 100%;
-	font-size: 2em;
-	padding: 3% 2%;
-	margin-bottom: 1%;
-	text-align: left;
-	border: none;
-	font-weight: 700;
-	color: white;
-}
-.donate{
-	background-image: linear-gradient(to bottom, #cf68ff, #c854ff);
-}
-.share{
-	background-image: linear-gradient(to bottom, #0baa00, #099900);
-}
-#banner button img{
-	height: 1.5em;
-	width: 1.5em;
-	float: right;
-}
-/* CONTAINER */
-#container{
-	background-color: white;
-	margin: 2%;
-	width: 96%;
-}
-#container img{
-	border-radius: 10px 10px 0px 0px;
-}
-#container h3{
-	color: rgb(100,150,255);
-}
-/* FOOTER */
-footer{
-	background-color: rgb(40,40,40);
-	color: white;
-	margin: 0px;
-	padding: 1%;
-	width: 98%;
-}
-footer ul li img{
-	height: 1.5em;
-	width: 1.5em;
-}
-footer input{
-	width: 48%;
-}
-footer button{
-	width: 48%;
+@media screen and (min-width: 0px){
+	/* RESET */
+	body {
+		background-color: #f5f5f5;
+		font-size: 1em;
+		margin: 0px;
+		font-family: 'PT Sans', sans-serif;
+		width: 100%;
+	}
+	img {
+		width: 100%;
+	}
+	a {
+		text-decoration: none;
+	}
+	ul {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+	}
+	li {
+		padding: 1%;
+	}
+	/* HEADER */
+	header {
+		width: 98%;
+		margin: 0px;
+		padding: 1%;
+		background-color: #323232;
+	}
+	header a{
+		height: 100px;
+		width: 100px;
+		background-color: #010101;
+		border-radius: 60%;
+	}
+	header img{
+		height: 100px;
+		width: 100px;
+	}
+	header span{
+		float: right;
+	}
+	/* MENU */
+	#menu{
+		display: none; 
+	}
+	#menu ul{
+		text-align: center;
+		font-size: 1.5em;
+	}
+	#menu ul li:hover{
+		border-bottom: 1px solid black;
+	}
+	/* BANNER */
+	#banner {
+		background-image: url(../imgs/banner.jpg);
+		background-repeat: no-repeat;
+		background-position: fixed;
+		background-size: cover;
+		text-align: center;
+		margin: 0px;
+		padding: 1%;
+		color: white;
+		text-shadow: 1px 1px black;
+		width: 98%;
+	}
+	#banner h2{
+		font-size: 3em;
+		font-weight: 700;
+	}
+	#banner h3{
+		font-size: 2em;
+	}
+	#banner h4{
+		font-size: 2em;
+		font-weight: 700;	
+	}
+	#banner button{
+		width: 100%;
+		font-size: 2em;
+		padding: 3% 2%;
+		margin-bottom: 1%;
+		text-align: left;
+		border: none;
+		font-weight: 700;
+		color: white;
+	}
+	.donate{
+		background-image: linear-gradient(to bottom, #cf68ff, #c854ff);
+	}
+	.share{
+		background-image: linear-gradient(to bottom, #0baa00, #099900);
+	}
+	#banner button img{
+		height: 1.5em;
+		width: 1.5em;
+		float: right;
+	}
+	/* CONTAINER */
+	#container{
+		background-color: white;
+		margin: 2%;
+		width: 96%;
+	}
+	#container img{
+		border-radius: 10px 10px 0px 0px;
+	}
+	#container h3{
+		color: rgb(100,150,255);
+	}
+	/* FOOTER */
+	footer{
+		background-color: rgb(40,40,40);
+		color: white;
+		margin: 0px;
+		padding: 1%;
+		width: 98%;
+	}
+	footer ul li img{
+		height: 1.5em;
+		width: 1.5em;
+	}
+	footer input{
+		width: 48%;
+	}
+	footer button{
+		width: 48%;
+	}
 }
 /* SMALL DESKTOP OR MOBILE LANDSCAPE */
 @media screen and (min-width: 600px){
