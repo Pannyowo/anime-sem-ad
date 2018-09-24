@@ -28,14 +28,14 @@ header {
 	background-color: #323232;
 }
 header a{
-	height: 56px;
-	width: 56px;
+	height: 100px;
+	width: 100px;
 	background-color: #010101;
 	border-radius: 60%;
 }
 header img{
-	height: 56px;
-	width: 56px;
+	height: 100px;
+	width: 100px;
 }
 header span{
 	float: right;
@@ -65,19 +65,19 @@ header span{
 	width: 98%;
 }
 #banner h2{
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: 700;
 }
 #banner h3{
-	font-size: 1.5em;
+	font-size: 2em;
 }
 #banner h4{
-	font-size: 1.5em;
+	font-size: 2em;
 	font-weight: 700;	
 }
 #banner button{
 	width: 100%;
-	font-size: 1.5em;
+	font-size: 2em;
 	padding: 3% 2%;
 	margin-bottom: 1%;
 	text-align: left;
