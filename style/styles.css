@@ -4,6 +4,7 @@ body {
 	font-size: 1em;
 	margin: 0px;
 	font-family: 'PT Sans', sans-serif;
+	width: 100%;
 }
 img {
 	width: 100%;
@@ -125,4 +126,105 @@ footer input{
 }
 footer button{
 	width: 48%;
+}
+/* SMALL DESKTOP OR MOBILE LANDSCAPE */
+@media screen and (min-width: 600px){
+	#banner button{
+		width: 48%;
+	}
+	header a img{
+		width: 80px;
+		height: 80px;
+	}
+	header span img{
+		width: 80px;
+		height: 80px;
+	}
+	#banner h2{
+		font-size: 2.5em;
+	}
+	#banner h3{
+		font-size:2em;
+	}
+	#banner h4{
+		font-size: 2em;
+	}
+	#banner button{
+		font-size: 1.5em;
+	}
+}
+/* MEDIUM DESKTOPS OR TABLES */
+@media screen and (min-width: 960px){
+	header a img{
+		width: 64px;
+		height: 64px;
+	}
+	header span{
+		display: none;
+	}
+	#container{
+		width: 45%;
+		display: block;
+	}
+	#banner{
+		display: flex;
+	}
+	#banner h2{
+		font-size: 2em;
+	}
+	#banner h3{
+		font-size: 1.5em;
+	}
+	#banner h4{
+		font-size: 1.5em;
+	}
+	#banner button{
+		font-size: 1em;
+	}
+	.banner-content{
+		width: 48%;
+		display: block;
+	}
+	#banner button{
+		width: 70%;
+	}
+	#menu{
+		display: block !important;
+	}
+	#menu ul{
+		display: flex;
+	}
+	#menu ul li{
+		width: auto;
+	}
+	#menu ul li:hover{
+		background-color: #e7e7e7;
+	}
+	#content{
+		display: flex;
+	
+	}
+}
+/* LARGE DEVICES */
+@media screen and (min-width: 1600px){
+	header a img{
+		width: 32px;
+		height: 32px;
+	}
+	header span img{
+		width: 32px;
+		height: 32px;
+	}
+	#banner h2{
+		font-size: 3em;
+	}
+	#banner h3{
+		font-size: 2em;
+	}
+	#banner button{
+		width: 50%;
+	}
+	#container{
+		width: 30%;
+	}
 }
