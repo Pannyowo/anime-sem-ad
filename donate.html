@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+                <link rel="stylesheet" href="style/styles.css" type="text/css">
+	</head>
+	<body onload="switchBanner()">
+		<header>
+                        <a href="index.html"><img src="imgs/logo.png"></a>
+                        <span onclick="click_menu()"><img src="imgs/bars.png"></span>
+                </header>
+                <div id="menu">
+                        <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="categorias.html">Categorias</a></li>
+                                <li><a href="lancamentos.html">Lançamentos</a></li>
+                                <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                </div>
+		<div id="banner">
+			<hr id="donate-separator"></textarea>
+		</div>
+		<div id="container">
+			<img src="imgs/bitcoin.jpg"></img>
+			<h3>Faça sua doação em BitCoins</h3>
+			<p>Os bitcoins poderão ser doados ao seguinte endereço:</p>
+			<span class="bitcoin-address">1LLNwsRLZf4LJDeyb69nLcf4DSCdx6Nwoz</span>
+			<p>Ou pelo seguinte QR Code:</p>
+			<img class="bitcoin-qr" src="imgs/qrbitcoin.png"></img>
+		</div>
+		
+		<footer>
+                        <div class="footer-element">
+                                <ul>
+                                        <h3>Website desenvolvido por Renan Moreira Gomes</h3>
+                                        <li><img src="imgs/github.png"> www.github.com/r3nuser</li>
+                                        <li><img src="imgs/email.png"> renan_battlenet@hotmail.com</li>
+                                </ul>
+                        </div>
+                        <hr>
+                        <div class="footer-element">
+                                <h3>Deixe seu contato:</h3>
+                                <input placeholder="Digite seu e-mail"></input>
+                                <button>Enviar</button>
+                        </div>
+                </footer>
+                <script type="text/javascript" src="scripts/menu.js"></script>
+		<script type="text/javascript" src="scripts/donate.js"></script>
+	</body>
+</html>
