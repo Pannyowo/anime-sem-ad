@@ -1,0 +1,19 @@
+function CategoriasLoad(){
+	var banner = document.getElementById('banner');
+	banner.style.backgroundImage = "url('imgs/shingeki.jpg')";
+
+	var buttons = document.getElementsByClassName('categoria');
+
+	for( var i = 0 ; i < buttons.length ; i ++){
+		console.log(buttons[i].style.backgroundImage);
+		if( i % 4 == 0 ){
+			er("mouseout", function() {
+				buttons[i].style.backgroundImage = "linear-gradient(to bottom, #cf68ff, #c854ff)";
+				console.log("touched");
+			}, false);
+			buttons[i].addEventListener("mouseover", function() {
+				buttons[i].style.backgroundImage = "linear-gradient(to bottom, #c060f0, #c050f0)";
+			}, false);
+		}
+	}
+}

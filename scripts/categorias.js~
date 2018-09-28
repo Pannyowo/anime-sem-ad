@@ -1,0 +1,4 @@
+CategoriasLoad(){
+	var banner = document.getElementById('banner');
+	banner.style.backgroundImage = "url('imgs/categoria-banner.png')";
+}

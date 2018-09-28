@@ -12,3 +12,6 @@ function openMenu( menu ){
 function closeMenu( menu ){
 	menu.style.display = 'none';
 }
+function pageScripts(){
+	document.getElementById('menu').style.display='none';
+}

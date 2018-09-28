@@ -100,6 +100,12 @@
 	.share:hover{
 		background-image: linear-gradient(to bottom, #00a000, #009000);
 	}
+	.categoria{
+		background-image: linear-gradient(to bottom, #6399ff, #538dfc);
+	}
+	.categoria:hover{
+		background-image: linear-gradient(to bottom, #6f9fff, #598fff);
+	}
 	#banner button img{
 		height: 1.5em;
 		width: 1.5em;
@@ -206,6 +212,7 @@
 	}
 	#banner button{
 		font-size: 1em;
+		display: inline-block;
 	}
 	.banner-content{
 		width: 48%;
@@ -213,6 +220,13 @@
 	}
 	#banner button{
 		width: 70%;
+	}
+	.categorias{
+		width: 70% !important;
+		display: block;
+	}
+	.categorias button{
+		width: 40%!important;
 	}
 	#menu{
 		display: block !important;
