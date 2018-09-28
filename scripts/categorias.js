@@ -7,13 +7,11 @@ function CategoriasLoad(){
 	for( var i = 0 ; i < buttons.length ; i ++){
 		console.log(buttons[i].style.backgroundImage);
 		if( i % 4 == 0 ){
-			buttons[i].addEventListener("mouseout", function() {
-				buttons[i].style.backgroundImage = "linear-gradient(to bottom, #cf68ff, #c854ff)";
-				console.log("touched");
-			}, false);
-			buttons[i].addEventListener("mouseover", function() {
-				buttons[i].style.backgroundImage = "linear-gradient(to bottom, #c060f0, #c050f0)";
-			}, false);
+			buttons[i].style.backgroundImage = "linear-gradient(to bottom, #ffd038, #ffcc26)";
+		} else if ( i % 3 == 0 ){
+			buttons[i].style.backgroundImage = "linear-gradient(to bottom, #ff8442, #ff7d38)";
+		} else {
+			buttons[i].style.backgroundImage = "linear-gradient(to bottom, #ff4c4c, #ff4242)";
 		}
 	}
 }
